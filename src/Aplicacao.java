@@ -2,7 +2,9 @@
 public class Aplicacao {
 
 	public static void main(String[] args) {
-
+		
+		//exemplo de polimorfismo, o método preparar bebidas é utilizado por diferentes tipos de bebidas
+		
 		LeiteQuente leite = new LeiteQuente();
 		Preparador preparador = new Preparador();
 		preparador.prepararBebida(leite);
